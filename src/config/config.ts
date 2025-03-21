@@ -671,5 +671,12 @@ export const HIS_MONGODB_URI = {
   DEV: process.env.DEV_MONGO_URL,
 }
 
+export const POSTGRES_CONNECTION={
+  POSTGRES_HOST:process.env.POSTGRES_HOST,
+POSTGRES_PASSWORD:process.env.POSTGRES_PASSWORD,
+POSTGRES_DB:process.env.POSTGRES_DB,
+POSTGRES_USER:process.env.POSTGRES_USER
+}
+
 
 export const MAIL_ID = process.env.MAIL_ID;
